@@ -17,13 +17,9 @@ uint8_t IrDa_Process(void);
 
 //红外遥控使用的GPIO及时钟
 
-//#define IRDA_GPIO             	GPIO1
-//#define IRDA_GPIO_PIN         	(18U)
-//#define IRDA_IOMUXC           	IOMUXC_GPIO_AD_B1_02_GPIO1_IO18
-
 #define IRDA_GPIO             	GPIO1
-#define IRDA_GPIO_PIN         	(17U)
-#define IRDA_IOMUXC           	IOMUXC_GPIO_AD_B1_01_GPIO1_IO17
+#define IRDA_GPIO_PIN         	(18U)
+#define IRDA_IOMUXC           	IOMUXC_GPIO_AD_B1_02_GPIO1_IO18
 
 //中断相关，IRQ中断号及IRQHandler中断服务函数
 #define IRDA_IRQ           GPIO1_Combined_16_31_IRQn
