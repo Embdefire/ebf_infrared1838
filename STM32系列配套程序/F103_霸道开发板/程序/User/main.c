@@ -21,8 +21,6 @@
 #include "./systick/bsp_SysTick.h"
 #include "./usart/bsp_usart.h"
 
-#define CLI()      __set_PRIMASK(1)		/* 关闭总中断 */  
-#define SEI() __set_PRIMASK(0)				/* 开放总中断 */ 
 
 extern uint8_t  frame_flag;
 extern uint8_t  isr_cnt;
